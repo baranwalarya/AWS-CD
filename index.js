@@ -11,7 +11,7 @@ app.get("/health",(req,res)=>{
 })
 
 app.get("/",(req,res)=>{
-    return res.status(200).json({message:"hello arya v3"})
+    return res.status(200).json({message:"hello arya ji"})
 })
 
 app.listen(port,()=>{
